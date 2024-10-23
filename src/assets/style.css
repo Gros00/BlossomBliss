@@ -1,0 +1,54 @@
+main{
+    .Title{
+        margin-bottom: 50px;
+    }
+    min-height: calc(100vh - 658px);
+    margin-bottom: 57px;
+    .default-form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        label {
+            font-size: 36px;
+            margin-bottom: 10px;
+            font-family: Inter;
+            font-weight: 300;
+        }
+        input[type="text"], input[type="password"]{
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 28px;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+            outline: none;
+            font-family: Inter;
+            font-weight: 300;
+            margin-bottom: 22px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #292B57;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 28px;
+            cursor: pointer;
+            outline: none;
+            font-family: Inter;
+            margin-top: 45px;
+            margin-bottom: 22px;
+        }
+        button:hover {
+        }
+    }
+    .links{
+        display: inline-flex;
+        flex-direction: column;
+        gap: 20px;
+        a{
+            color: black;
+            font-size: 24px;
+        }
+    }
+}
